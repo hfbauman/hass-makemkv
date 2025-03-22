@@ -1,5 +1,5 @@
 name: MakeMKV Wrapper
-version: "1.1.1"
+version: "1.1.2"
 slug: makemkv-wrapper
 description: Wraps the jlesage/docker-makemkv container as a Home Assistant add-on.
 url: https://github.com/hfbauman/hass-makemkv/tree/main/makemkv-wrapper
@@ -16,6 +16,7 @@ ingress: true
 ingress_port: 5800
 panel_icon: mdi:disc
 panel_title: MakeMKV
+webui: http://[HOST]:5800
 map:
   - config:rw
   - media:rw
@@ -25,3 +26,5 @@ devices:
 privileged:
   - SYS_ADMIN
   - DAC_READ_SEARCH
+ports:
+  5800/tcp: null
