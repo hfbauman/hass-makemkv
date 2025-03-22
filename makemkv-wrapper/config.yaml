@@ -23,4 +23,3 @@ host_network: true
 privileged:
   - SYS_ADMIN
   - DAC_READ_SEARCH
-image: jlesage/makemkv
