@@ -1,2 +1,3 @@
-# hass-makemkv
-A minimal package to add https://github.com/jlesage/docker-makemkv as a Home Assistant Add-on.
+# MakeMKV Home Assistant Add-on
+
+This repository contains a Home Assistant add-on that wraps the jlesage/docker-makemkv container.
