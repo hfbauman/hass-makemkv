@@ -26,5 +26,3 @@ devices:
 privileged:
   - SYS_ADMIN
   - DAC_READ_SEARCH
-ports:
-  5800/tcp: null
