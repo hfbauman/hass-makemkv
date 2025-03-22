@@ -16,7 +16,6 @@ ingress: true
 ingress_port: 5800
 panel_icon: mdi:disc
 panel_title: MakeMKV
-webui: http://[HOST]:5800
 map:
   - config:rw
   - media:rw
